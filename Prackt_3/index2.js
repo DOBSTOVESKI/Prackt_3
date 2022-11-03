@@ -11,18 +11,18 @@ let n_name=upname[0];
 let fin_name=n_name+normalname;
 let fin_surname=n_surname+normalsurname;
 if(fin_name==name&&fin_surname==surname){
-    alert(name+" "+surname+"            "+"Формат имени и фамилии корректен."); 
+    alert(name+" "+surname+"\nФормат имени и фамилии корректен."); 
 }
 else{
     if(fin_name==name&&fin_surname!=surname){
-        alert(name+" "+fin_surname+"            "+"Формат имени корректен, формат фамилии преведён в норму.");
+        alert(name+" "+fin_surname+"\nФормат имени корректен, формат фамилии преведён в норму.");
     }
     else{
         if(fin_name!=name&&fin_surname==surname){
-            alert(fin_name+" "+surname+"            "+"Формат имени приведён в норму, формат фамилии корректен.");
+            alert(fin_name+" "+surname+"\nФормат имени приведён в норму, формат фамилии корректен.");
         }
         else{
-            alert(fin_name+" "+fin_surname+"            "+"Форматы имени и фамилии приведены в норму.");
+            alert(fin_name+" "+fin_surname+"\nФорматы имени и фамилии приведены в норму.");
         }
     }
 }
