@@ -1,5 +1,5 @@
 console.log("Задание 2");
-let Anker =[{value:"Russia",label:"Розетка"},
+let Anker =[{value:"Отвертка",label:"Розетка"},
   {value:"Отвертка",label:"Отвертка"},
   {value:"Болт",label:"Болт"}];
 function CountryList(Anker, str){
