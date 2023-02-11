@@ -31,6 +31,7 @@ body{
     height: 50px;
 }
 #gun{
+    
     background-image: url(gun_image.png);
     background-size: 50px;
     position: relative;
@@ -40,10 +41,13 @@ body{
     width: 50px;
 }
 #projectile{
-    border: solid;
-    border-color: rgb(0, 201, 252);
-    height: 10px;
-    width: 10px;
+    background-image: url(dizelryad.png);
+    background-size: 23px 25px;
+    position: relative;
+    /*border: solid;
+    border-color: rgb(255, 0, 0);*/
+    height: 23px;
+    width: 23px;
 }
 button{
     background-color: darkgoldenrod;
