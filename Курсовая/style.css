@@ -41,12 +41,12 @@ body{
     width: 50px;
 }
 #projectile{
-    background-image: url(dizelryad.png);
-    background-size: 23px 25px;
+    background-image: url(puhpuhmazafaka.png);
+    background-size: 25px 50px;
     position: relative;
     /*border: solid;
     border-color: rgb(255, 0, 0);*/
-    height: 23px;
+    height: 50px;
     width: 23px;
 }
 button{
